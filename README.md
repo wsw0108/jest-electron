@@ -1,4 +1,4 @@
-# @wsw0108/jest-electron
+# jest-electron-26
 
 > Easiest way to run jest unit test cases in electron.
 
@@ -21,7 +21,7 @@ When we run unit test in Jest, it is actually running in the node environment, o
  - Add into devDependencies
 
 ```bash
-$ npm i --save-dev @wsw0108/jest-electron
+$ npm i --save-dev jest-electron-26
 ```
 
  - Update Jest config
@@ -29,8 +29,8 @@ $ npm i --save-dev @wsw0108/jest-electron
 ```diff
 {
   "jest": {
-+    "runner": "@wsw0108/jest-electron/runner",
-+    "testEnvironment": "@wsw0108/jest-electron/environment"
++    "runner": "jest-electron-26/runner",
++    "testEnvironment": "jest-electron-26/environment"
   }
 }
 ```

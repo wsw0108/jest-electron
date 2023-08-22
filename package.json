@@ -1,5 +1,5 @@
 {
-  "name": "@wsw0108/jest-electron",
+  "name": "jest-electron-26",
   "version": "26.1.0",
   "description": "Easiest way to run jest unit test cases in electron.",
   "main": "index.js",
